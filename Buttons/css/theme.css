@@ -1,0 +1,28 @@
+/* theme.css */
+.success-mode {
+    background-color: green;
+    background-image: url("../img/success.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.danger-mode {
+    background-color: red;
+    background-image: url("../img/danger.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}

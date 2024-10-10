@@ -1,0 +1,26 @@
+/* Basic button styles */
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the buttons appear inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Disabled button styles */
+button:disabled {
+    background-color: #cccccc; /* Gray background */
+    color: #666666; /* Dark gray text */
+    cursor: not-allowed; /* Not-allowed cursor */
+}
